@@ -1,0 +1,7 @@
+.link-menubalk:target {
+    display: block;
+}
+header {
+    border-radius: inherit;
+    min-height: inherit;
+    }

@@ -1,0 +1,194 @@
+:root {
+    --color-dominant: #FFFFFF;
+    --color-complement: #000000;
+    
+}
+html{
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    font-family: Verdana,sans-serif;
+    line-height: 1;
+    margin: 0px;
+}
+
+h2,h3,p {
+    padding-left: 32px;
+}
+
+hr {
+    padding-bottom: 30px;
+}
+
+#lijn-blogs{
+    padding-bottom: 1px;
+}
+
+#menubalk {
+    box-shadow: 0 2px 4px  ;
+    display: block;
+    width: 400px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    box-sizing: inherit;
+}
+
+#lijst-menubalk {
+    list-style: none;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+}
+
+.link-menubalk{
+    text-decoration: none;
+    display: block;
+    padding: .5rem .25rem;
+    box-sizing: border-box;
+    height: 100%
+}
+
+#lijst-deel2{
+    padding-left: 20rem;
+}
+
+img{
+    width: 16rem;
+    padding-left: 0px;
+    padding-bottom: 10px;
+}
+
+#genk-foto,#snowboard-foto,#voetbal-foto,#de-haan-foto,#snowboard-foto2
+,#genk-foto2
+{
+    padding-left: 31px;
+}
+
+ul{
+    margin: 0px;
+}
+
+
+.titel-project {
+    padding: 4px;
+    display: inline-block;
+    box-sizing:inherit;
+}
+
+
+#hoofdfoto{
+    width: 20rem;
+    padding-left: 0px;
+    padding-top: 30px;
+    
+}
+
+footer { 
+    padding: 17px;
+    padding-left: 60px;
+    font-family: "Raleway", sans-serif;
+}
+
+
+@media only screen and (min-width: 600px) {
+    #mainGridContainer {
+        display: grid;
+
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: auto auto auto;
+
+        grid-template-areas: "personal work"
+                             "personal education"
+                             ".        education";
+        grid-gap: 1rem;
+        padding: 1rem;
+    }
+
+    #lijst-deel2{
+        padding-left: 67rem;
+    }
+    #hoofdfoto{
+        width: 86rem;
+        padding-left: 0px;
+        padding-top: 30px;
+    }
+
+
+    img{
+        width: 15rem; 
+    }
+
+    #genk-foto{
+        width: 23.1rem;
+        padding-left: 40px;
+    }
+
+    #snowboard-foto{
+        width: 19rem;
+        padding-left: 70px;
+    }
+
+    #de-haan-foto{
+        width: 20rem;
+        padding-left: 50px;
+    }
+
+    hr{
+        width: 50pc;
+        padding-bottom: 30px;
+    }
+
+    #lijn-blogs{
+        padding-bottom: 1px;
+    }
+
+    #voetbal-foto {
+        width: 80rem;
+        padding-left: 36px;
+    }
+
+    #blog1,#blog2,#blog3{
+        padding-bottom: 220px;
+    }
+
+
+    #snowboard-foto2,#genk-foto2,#de-haan-foto2{
+        padding-left: 500px;
+    }
+    
+
+    #menubalk {
+        width: 4000px;
+    }
+    .titel-project {
+        display: inline-block;
+        box-sizing:none;
+        padding-left: 0px;
+    }
+
+    footer{
+        padding-left: 600px;
+    }
+
+
+    #lijn-blogpagina {
+        padding-bottom: 20rem;
+    }
+
+    h2{
+        padding-top: 5rem;
+    }
+
+    .section-projecten{
+        padding: 16rem;
+        padding-left: 22rem;
+    }
+
+
+
+}
+
+
+    
